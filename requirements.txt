@@ -1,0 +1,5 @@
+discord.py>=2.5.0
+aiohttp
+requests
+mcstatus
+google-genai
