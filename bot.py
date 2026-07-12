@@ -132,7 +132,7 @@ async def on_ready():
         http_session = aiohttp.ClientSession()
 
 
-        await client.change_presence(activity=discord.Game(name="development"))
+        await client.change_presence(activity=discord.Game(name="The status you want to be shown under the bots name"))
 
 
 gemini = genai.Client(api_key="Place your Google Studio Api key/token here")
